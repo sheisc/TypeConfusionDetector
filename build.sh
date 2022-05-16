@@ -26,7 +26,7 @@ if [ ! -d $LLVM_BUILD_DIR ]; then
 fi
 
 
-
+. ./env.sh
 
 
 SVF_BUILD_DIR=svf-build
