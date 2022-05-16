@@ -47,14 +47,14 @@ TotalPointers       77
 ****Andersen Pointer Analysis Statistics****
 ################ (program : main)###############
 -------------------------------------------------------
-TotalTime           0
+TotalTime           0.001
 CollapseTime        0
 CopyGepTime         0
 UpdateCGTime        0
 AvgTopLvlPtsSize    1
 AvgPtsSetSize       0.324786
 LoadStoreTime       0
-SCCMergeTime        0
+SCCMergeTime        0.001
 SCCDetectTime       0
 TotalLoadInst       2
 TotalStoreInst      6
@@ -96,8 +96,8 @@ Pointers            75
 AverageRegSize      1
 SSARenameTime       0
 InsertPHITime       0
-GenMUCHITime        0.004
-GenRegionTime       0
+GenMUCHITime        0.003
+GenRegionTime       0.001
 TotalMSSATime       0.004
 BBHasMSSAPhi        0
 MSSAPhi             0
@@ -166,8 +166,8 @@ Store               5
 AverageRegSize      1
 SSARenameTime       0
 InsertPHITime       0
-GenMUCHITime        0.004
-GenRegionTime       0
+GenMUCHITime        0.003
+GenRegionTime       0.001
 TotalMSSATime       0
 BBHasMSSAPhi        0
 MSSAPhi             0
@@ -313,13 +313,13 @@ sizeof(points-to(ptr))	count
 -------------------------------Points-to----------------------------------
 [1] NodeID: 55	, Node Kind: ValPN
 Value:   %3 = bitcast %struct.C* %1 to i8*, !dbg !933
-	ln: 20 fl: main.cpp
+	ln: 15 fl: main.cpp
 : ===================> 
 {
 (1)
 	NodeID: 92	, Node Kind: ObjPN
 Value:   %1 = call i8* @__au_edu_unsw_placement_new_stub(i8* %0) #3, !dbg !934, !SrcTypeInfo !935, !DstTypeInfo !935, !UNSWSessionID !936
-	ln: 27 fl: main.cpp
+	ln: 21 fl: main.cpp
 
 }
 
@@ -329,7 +329,7 @@ Value:   %1 = call i8* @__au_edu_unsw_placement_new_stub(i8* %0) #3, !dbg !934, 
 Bad static_cast: 
 	%struct.A*   ====>   %struct.C*
 Where: 
-	ln: 20 fl: main.cpp
+	ln: 15 fl: main.cpp
 Instruction: 
 	  %4 = call i8* @__au_edu_unsw_static_cast_stub(i8* %2, i8* %3) #3, !dbg !933, !SrcTypeInfo !934, !DstTypeInfo !935, !UNSWSessionID !936
 Src: 
@@ -349,7 +349,7 @@ DefinitelyUnsafeCasts (1):
 	Instruction: 
 	  %4 = call i8* @__au_edu_unsw_static_cast_stub(i8* %2, i8* %3) #3, !dbg !933, !SrcTypeInfo !934, !DstTypeInfo !935, !UNSWSessionID !936
 	Where: 
-	ln: 20 fl: main.cpp
+	ln: 15 fl: main.cpp
 	Dst NodeId: 55
 
 
