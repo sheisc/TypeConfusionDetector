@@ -1,0 +1,364 @@
+
+****CallGraph SCC Stat****
+################ (program : main)###############
+-------------------------------------------------------
+TotalNode           11
+TotalEdge           8
+TotalCycle          0
+MaxNodeInCycle      0
+NodeInCycle         0
+CalRetPairInCycle   0
+#######################################################
+
+****Andersen Pointer Analysis Statistics****
+################ (program : main)###############
+BBWith2Succ         0
+BBWith3Succ         0
+BitCastNumber       4
+TotalCallSite       8
+LocalVarInRecur     0
+IndCallSites        0
+ReturnsNum          0
+CallsNum            2
+GepsNum             4
+CopysNum            9
+StoresNum           5
+LoadsNum            2
+AddrsNum            22
+NonPtrObj           15
+ConstArrayObj       1
+ConstStructObj      0
+VarArrayObj         1
+VarStructObj        2
+FSObjNum            21
+FIObjNum            0
+StackObjs           6
+HeapObjs            1
+GlobalObjs          3
+FunctionObjs        11
+TotalPAGEdges       88
+MaxStructSize       3
+TotalFieldObjects   4
+TotalObjects        23
+TotalPointers       77
+-------------------------------------------------------
+#######################################################
+
+****Andersen Pointer Analysis Statistics****
+################ (program : main)###############
+-------------------------------------------------------
+TotalTime           0
+CollapseTime        0
+CopyGepTime         0
+UpdateCGTime        0
+AvgTopLvlPtsSize    1
+AvgPtsSetSize       0.324786
+LoadStoreTime       0
+SCCMergeTime        0
+SCCDetectTime       0
+TotalLoadInst       2
+TotalStoreInst      6
+PointsToConstPtr    0
+PointsToBlkPtr      0
+CGNodeNum           117
+IndEdgeSolved       0
+NullPointer         0
+MaxNodesInSCC       0
+NodesInCycles       0
+TotalPWCCycleNum    0
+TotalCycleNum       0
+NumOfSCCDetect      2
+IndCallSites        0
+Iterations          2
+MaxPtsSetSize       1
+DYFieldObjs         4
+MemObjects          23
+DYFieldPtrs         2
+GepProcessed        4
+CopyProcessed       10
+StoreProcessed      5
+LoadProcessed       2
+AddrProcessed       22
+GepsNum             4
+CopysNum            20
+StoresNum           5
+LoadsNum            2
+AddrsNum            22
+TotalPAGEdges       31
+TotalObjects        27
+TotalPointers       77
+Pointers            75
+#######################################################
+
+****Memory SSA Statistics****
+################ (program : main)###############
+-------------------------------------------------------
+AverageRegSize      1
+SSARenameTime       0
+InsertPHITime       0
+GenMUCHITime        0.004
+GenRegionTime       0
+TotalMSSATime       0.004
+BBHasMSSAPhi        0
+MSSAPhi             0
+StoreHasChi         4
+LoadHasMu           2
+CSHasMu             0
+CSHasChi            0
+FunHasRetMu         5
+FunHasEntryChi      2
+StoreChiNode        4
+LoadMuNode          2
+CSMuNode            0
+CSChiNode           0
+FunRetMu            4
+FunEntryChi         4
+MemRegions          4
+MaxRegSize          1
+#######################################################
+
+****SVFG Statistics****
+################ (program : main)###############
+-------------------------------------------------------
+TotalTime           0
+ConnDirEdgeTime     0
+ConnIndEdgeTime     0
+TLNodeTime          0
+ATNodeTime          0
+OptTime             0
+AvgWeight           1
+TotalNode           49
+FormalIn            4
+FormalOut           0
+FormalParam         0
+FormalRet           0
+ActualIn            0
+ActualOut           0
+ActualParam         0
+ActualRet           0
+TotalEdge           32
+DirectEdge          26
+IndirectEdge        6
+IndCallEdge         0
+IndRetEdge          0
+DirectCallEdge      1
+DirectRetEdge       0
+AvgInDegree         0
+AvgOutDegree        0
+MaxInDegree         3
+MaxOutDegree        4
+AvgIndInDeg         1
+AvgIndOutDeg        1
+MaxIndInDeg         1
+MaxIndOutDeg        1
+MSSAPhi             0
+PHI                 2
+Addr                22
+Copy                9
+Gep                 4
+Load                2
+Store               5
+#######################################################
+
+****Memory SSA Statistics****
+################ (program : main)###############
+-------------------------------------------------------
+AverageRegSize      1
+SSARenameTime       0
+InsertPHITime       0
+GenMUCHITime        0.004
+GenRegionTime       0
+TotalMSSATime       0
+BBHasMSSAPhi        0
+MSSAPhi             0
+StoreHasChi         4
+LoadHasMu           2
+CSHasMu             0
+CSHasChi            0
+FunHasRetMu         5
+FunHasEntryChi      2
+StoreChiNode        4
+LoadMuNode          2
+CSMuNode            0
+CSChiNode           0
+FunRetMu            4
+FunEntryChi         4
+MemRegions          4
+MaxRegSize          1
+#######################################################
+
+****SVFG Statistics****
+################ (program : main)###############
+-------------------------------------------------------
+TotalTime           0
+ConnDirEdgeTime     0
+ConnIndEdgeTime     0
+TLNodeTime          0
+ATNodeTime          0
+OptTime             0
+AvgWeight           1
+TotalNode           49
+FormalIn            4
+FormalOut           0
+FormalParam         0
+FormalRet           0
+ActualIn            0
+ActualOut           0
+ActualParam         0
+ActualRet           0
+TotalEdge           32
+DirectEdge          26
+IndirectEdge        6
+IndCallEdge         0
+IndRetEdge          0
+DirectCallEdge      1
+DirectRetEdge       0
+AvgInDegree         0
+AvgOutDegree        0
+MaxInDegree         3
+MaxOutDegree        4
+AvgIndInDeg         1
+AvgIndOutDeg        1
+MaxIndInDeg         1
+MaxIndOutDeg        1
+MSSAPhi             0
+PHI                 2
+Addr                22
+Copy                9
+Gep                 4
+Load                2
+Store               5
+#######################################################
+
+****CallGraph SCC Stat****
+################ (program : main)###############
+-------------------------------------------------------
+TotalNode           11
+TotalEdge           8
+TotalCycle          0
+MaxNodeInCycle      0
+NodeInCycle         0
+CalRetPairInCycle   0
+#######################################################
+
+****SVFG SCC Stat****
+################ (program : main)###############
+-------------------------------------------------------
+TotalNode           49
+TotalEdge           32
+TotalCycle          0
+MaxNodeInCycle      0
+NodeInCycle         0
+TotalDirEdge        26
+DirEdgeInCycle      0
+TotalIndEdge        6
+IndEdgeInCycle      0
+EdgeInCycle         0
+TotalCallEdge       1
+CallEdgeInCycle     0
+InsenCallEdge       0
+TotalRetEdge        0
+RetEdgeInCycle      0
+InsenRetEdge        0
+#######################################################
+
+****Demand-Driven Pointer Analysis Statistics****
+################ (program : main)###############
+-------------------------------------------------------
+AvgPtsSize          1
+TotalQueryTime      0
+AvgTimePerQuery     0
+TotalBKCondTime     0
+AvgDPMAtLoc         1
+AvgCPtsSize         1
+PointsToConstPtr    0
+PointsToBlkPtr      0
+MaxPtsSize          1
+NumOfQuery          1
+NumOfOOBQuery       0
+NumOfDPM            44
+NumOfSU             2
+NumOfStoreSU        2
+NumOfStep           23
+NumOfStepInCycle    12
+MaxDPMAtLoc         1
+MaxPathPerQuery     0
+MaxCxtPerQuery      0
+MaxCPtsSize         1
+IndEdgeSolved       0
+NumOfNullPtr        0
+NumOfMustAA         0
+NumOfInfePath       0
+NumOfStore          5
+MemoryUsageVmrss    0
+MemoryUsageVmsize   0
+#######################################################
+------------------------------ Statistics --------------------------------------------
+
+The number of static_cast<> is 1
+The number of dynamic_cast<> is 0
+The number of reinterpret_cast<> is 0
+The number of placement new  is 1
+The number of new  is 0
+The number of misusing static_cast<> is 0
+The number of misusing dynamic_cast<> is 0
+The number of misusing reinterpret_cast<> is 0
+
+
+-------------------------------Histogram----------------------------------
+sizeof(points-to(ptr))	count
+(1			1)
+
+
+-------------------------------Points-to----------------------------------
+[1] NodeID: 55	, Node Kind: ValPN
+Value:   %3 = bitcast %struct.C* %1 to i8*, !dbg !933
+	ln: 20 fl: main.cpp
+: ===================> 
+{
+(1)
+	NodeID: 92	, Node Kind: ObjPN
+Value:   %1 = call i8* @__au_edu_unsw_placement_new_stub(i8* %0) #3, !dbg !934, !SrcTypeInfo !935, !DstTypeInfo !935, !UNSWSessionID !936
+	ln: 27 fl: main.cpp
+
+}
+
+--------------------------------------------------------------------------
+
+================================  (MUST BE) Type Error [1] ================================
+Bad static_cast: 
+	%struct.A*   ====>   %struct.C*
+Where: 
+	ln: 20 fl: main.cpp
+Instruction: 
+	  %4 = call i8* @__au_edu_unsw_static_cast_stub(i8* %2, i8* %3) #3, !dbg !933, !SrcTypeInfo !934, !DstTypeInfo !935, !UNSWSessionID !936
+Src: 
+	%struct.A = type { i32 }
+Dst: 
+	%struct.C = type { %struct.A, i32 }
+Actual types of 1 pointee(s): 
+(1)
+	%struct.A = type { i32 }
+
+
+--------------------- The number of DefinitelySafeCasts is 0 ------------------
+
+
+--------------------- The number of DefinitelyUnsafeCasts is 1 ------------------
+DefinitelyUnsafeCasts (1):
+	Instruction: 
+	  %4 = call i8* @__au_edu_unsw_static_cast_stub(i8* %2, i8* %3) #3, !dbg !933, !SrcTypeInfo !934, !DstTypeInfo !935, !UNSWSessionID !936
+	Where: 
+	ln: 20 fl: main.cpp
+	Dst NodeId: 55
+
+
+
+--------------------- The number of UncertainCasts is 0 ------------------
+
+
+The number of definitely SAFE casts  is 0
+The number of definitely UNSAFE casts  is 1
+The number of UNCERTAIN casts  is 0
+
+
