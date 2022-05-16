@@ -68,6 +68,21 @@ iron@CSE:demo$ make CXX="wllvm++ -O0 -g"
 
 iron@CSE:demo$ ../tools/tcd.sh ./main.mem2reg.bc
 
+-------------------------------Points-to----------------------------------
+[1] NodeID: 55	, Node Kind: ValPN
+Value:   %3 = bitcast %struct.C* %1 to i8*, !dbg !933
+	ln: 15 fl: main.cpp
+: ===================> 
+{
+(1)
+	NodeID: 92	, Node Kind: ObjPN
+Value:   %1 = call i8* @__au_edu_unsw_placement_new_stub(i8* %0) #3, !dbg !934, !SrcTypeInfo !935, !DstTypeInfo !935, !UNSWSessionID !936
+	ln: 21 fl: main.cpp
+
+}
+
+--------------------------------------------------------------------------
+
 ================================  (MUST BE) Type Error [1] ================================
 Bad static_cast: 
 	%struct.A*   ====>   %struct.C*
@@ -82,6 +97,8 @@ Dst:
 Actual types of 1 pointee(s): 
 (1)
 	%struct.A = type { i32 }
+
+
 
 
 
