@@ -1,4 +1,5 @@
 CXX=wllvm++ -g -O0 
+
 all:
 	${CXX} main.cpp -o main
 	extract-bc main -o main.bc 
